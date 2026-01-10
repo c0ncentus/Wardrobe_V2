@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
+import './DefaultPage.css';
 interface Domain {
   id: string;
   name: string;
+  link:string,
   icon: string;
   gradient: string;
   description: string;
@@ -14,6 +16,7 @@ const DOMAINS: Domain[] = [
   {
     id: 'wardrobe',
     name: 'Garde-robe',
+    link:"garde-robe",
     icon: '👗',
     gradient: 'from-purple-600 via-pink-500 to-rose-500',
     description: 'Cataloguez et organisez votre garde-robe personnelle',
@@ -27,6 +30,7 @@ const DOMAINS: Domain[] = [
   {
     id: 'library',
     name: 'Bibliothèque',
+        link:"bibliotheque",
     icon: '📚',
     gradient: 'from-amber-600 via-orange-500 to-red-600',
     description: 'Gérez votre collection de livres et lectures',
@@ -41,6 +45,7 @@ const DOMAINS: Domain[] = [
   {
     id: 'politics',
     name: 'Politique',
+            link:"politique",
     icon: '🏛️',
     gradient: 'from-blue-600 via-indigo-500 to-purple-600',
     description: 'Suivez l\'actualité politique et vos élus',
@@ -55,6 +60,7 @@ const DOMAINS: Domain[] = [
   {
     id: 'worldbuilding',
     name: 'Worldbuilding',
+            link:"worldbuilding",
     icon: '🌍',
     gradient: 'from-green-600 via-emerald-500 to-teal-600',
     description: 'Créez et organisez vos univers fictifs',
@@ -68,6 +74,7 @@ const DOMAINS: Domain[] = [
   },
   {
     id: 'symbols',
+    link:"symboles",
     name: 'Symboles',
     icon: '🛡️',
     gradient: 'from-yellow-600 via-amber-500 to-orange-600',
@@ -83,6 +90,7 @@ const DOMAINS: Domain[] = [
   {
     id: 'webtools',
     name: 'Outils Web',
+    link:"outils-web",
     icon: '🔧',
     gradient: 'from-cyan-600 via-sky-500 to-blue-600',
     description: 'Utilitaires pratiques pour le web',
@@ -186,9 +194,10 @@ export const HomePage: React.FC = () => {
           {/* Domains grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {DOMAINS.map((domain) => (
-              <button
+              <Link
+              to={domain.link}
                 key={domain.id}
-                onClick={() => handleClick(domain.id, domain.comingSoon)}
+                // onClick={() => handleClick(domain.id, domain.comingSoon)}
                 onMouseEnter={() => setHovered(domain.id)}
                 onMouseLeave={() => setHovered(null)}
                 className="group relative overflow-hidden rounded-2xl border-2 border-slate-700/50 bg-gradient-to-br from-slate-900/50 to-slate-800/50 backdrop-blur-sm transition-all duration-500 hover:scale-105 hover:border-slate-600 hover:shadow-2xl"
@@ -241,7 +250,7 @@ export const HomePage: React.FC = () => {
                     </div>
                   </div>
                 </div>
-              </button>
+              </Link>
             ))}
           </div>
         </main>

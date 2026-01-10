@@ -1,3 +1,6 @@
+source ~/.bashrc
+
+
 # 👗 Wardrobe - Gestionnaire de Garde-robe
 
 Une application React élégante et moderne pour gérer votre garde-robe avec style. Interface dark sophistiquée, gestion complète CRUD, collections de tenues, et bien plus.

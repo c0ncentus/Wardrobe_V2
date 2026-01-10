@@ -1,5 +1,5 @@
 import { Vetement, Collection, PartieType } from './types';
-import { CLOTHING_TAXONOMY } from './clothingTaxonomy';
+import { CLOTHING_TAXONOMY } from '../config/wardobe/taxonomy';
 
 /**
  * Generate a unique ID (simple UUID v4)

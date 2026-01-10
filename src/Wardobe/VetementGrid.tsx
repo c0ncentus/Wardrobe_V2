@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Vetement, FilterState } from './types';
 import { VetementCard } from './VetementCard';
 import { filterVetements } from './utils';
-import { getStyleOptions, getPartieOptions } from './staticData';
-import { getAllClothingItems } from './clothingTaxonomy';
+import { getStyleOptions, getPartieOptions } from '../config/wardobe/materials.ts';
+import { getAllClothingItems } from '../config/wardobe/taxonomy';
 
 interface VetementGridProps {
   vetements: Vetement[];

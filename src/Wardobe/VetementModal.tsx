@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Vetement } from './types';
 import { generateId, now, fileToBase64, fetchUrlMetadata, getPartieFromType, parseProductTitle } from './utils';
-import { getStyleOptions, getMaterialOptions, getPartieOptions } from './staticData';
+import { getStyleOptions, getMaterialOptions, getPartieOptions } from '../config/wardobe/materials.ts';
 import { ClothingTreeSelect } from './ClothingTreeSelect';
 import { GradientStyleSelector } from './GradientStyleSelector';
 

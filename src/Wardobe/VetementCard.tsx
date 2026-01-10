@@ -1,7 +1,7 @@
 import React from 'react';
 import { Vetement } from './types';
-import { COLORS, MATERIALS } from './staticData';
-import { getClothingItemLabel } from './clothingTaxonomy';
+import { COLORS, MATERIALS } from '../config/wardobe/materials.ts';
+import { getClothingItemLabel } from '../config/wardobe/taxonomy';
 
 interface VetementCardProps {
   vetement: Vetement;

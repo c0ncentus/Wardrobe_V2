@@ -1,0 +1,40 @@
+/**
+ * Types spécifiques au domaine Wardrobe
+ */
+
+import type { BaseItem, BaseCollection } from '../base.config';
+import type { CLOTHING_STYLES } from './styles';
+import type { MATERIALS } from './materials';
+import type { CLOTHING_PARTS } from './parts';
+
+export type StyleType = keyof typeof CLOTHING_STYLES;
+export type MaterialType = keyof typeof MATERIALS;
+export type PartieType = keyof typeof CLOTHING_PARTS;
+export type VetementType = string;
+
+export interface Vetement extends BaseItem {
+  style: StyleType;
+  estTenueComplete: boolean;
+  type: VetementType;
+  partie: PartieType;
+  materials: MaterialType[];
+}
+
+export interface Collection extends BaseCollection {
+  vetements: string[];
+  page?: any;
+}
+
+export interface FilterState {
+  search: string;
+  style: StyleType | 'tous';
+  type: VetementType | 'tous';
+  partie: PartieType | 'tous';
+  estTenueComplete: boolean | 'tous';
+}
+
+export type ViewMode = 'vetements' | 'collections';
+
+export type StyleKey = StyleType;
+export type MaterialKey = MaterialType;
+export type PartieKey = PartieType;

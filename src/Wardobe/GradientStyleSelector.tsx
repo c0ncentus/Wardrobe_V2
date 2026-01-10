@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleType } from './types';
-import { getStyleOptions } from './staticData';
+import { getStyleOptions } from '../config/wardobe/materials.ts';
 
 interface GradientStyleSelectorProps {
   value: StyleType;

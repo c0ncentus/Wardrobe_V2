@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CLOTHING_TAXONOMY } from './clothingTaxonomy';
+import { CLOTHING_TAXONOMY } from '../config/wardobe/taxonomy';
 
 interface ClothingTypeSelectProps {
   value: string;

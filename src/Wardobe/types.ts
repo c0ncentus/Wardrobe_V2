@@ -1,8 +1,8 @@
 // Import all valid types from static data
-export type StyleType = keyof typeof import('./staticData').CLOTHING_STYLES;
+export type StyleType = keyof typeof import('../config/wardobe/materials.ts').CLOTHING_STYLES;
 export type VetementType = string; // Will be validated against CLOTHING_TAXONOMY
 export type PartieType = 'Ensemble' | 'Top' | 'Bottom' | 'OnBody' | 'Accessoire' | 'Chaussures' | 'Lingerie' | 'Exterieur';
-export type MaterialType = keyof typeof import('./staticData').MATERIALS;
+export type MaterialType = keyof typeof import('../config/wardobe/materials.ts').MATERIALS;
 
 export interface Vetement {
   id: string;
