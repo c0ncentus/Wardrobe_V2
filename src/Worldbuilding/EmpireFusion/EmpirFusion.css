@@ -1,36 +1,35 @@
-        MEGA TITLES (H1)
+/* 
 font-family: 'Cinzel', serif;
 font-weight: 900;
 font-size: clamp(3rem, 6vw, 6rem);
 letter-spacing: 0.1em;
 
-/* HEADERS (H2-H3) */
-font-family: 'Cinzel', serif; /* OU Noto Serif JP */
+
+font-family: 'Cinzel', serif;
 font-weight: 700;
 font-size: clamp(2rem, 4vw, 3.5rem);
 
-/* UI / BADGES / STATS */
+
 font-family: 'Righteous', cursive;
 font-weight: 400;
 font-size: 1rem;
 text-transform: uppercase;
 
-/* BODY TEXT */
 font-family: 'Noto Sans JP', sans-serif;
 font-weight: 400;
 font-size: 1rem;
 line-height: 1.6;
 
-/* QUOTES / CITATIONS */
+
 font-family: 'Cormorant Garamond', serif;
 font-style: italic;
 font-weight: 400;
 font-size: 1.2rem;
 
-/* ACCENTS SPÉCIAUX (optionnel) */
+
 font-family: 'Vampire Wars'; /* UNIQUEMENT vampires */
 
-        
+         */
         
         body {
             font-family: 'Georgia', serif;

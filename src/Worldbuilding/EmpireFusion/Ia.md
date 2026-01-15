@@ -1,0 +1,1 @@
+- Je veux que tu synthetise d'urgence les rangs, rituels , evenement, lieux [emogis] & prend le temps de le faire. et structuration société
