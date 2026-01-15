@@ -1,5 +1,4 @@
-Voici une proposition structurée pour tes **Succubes de l'Union**, organisées en quatre ordres croissants. Chaque ordre utilise le "Cœur" comme pivot du pouvoir de liaison, avec une utilité civile et mystique précise dans ton Empire :
-
+# Les Ordres des Succubes 
 ### ⛓️ **La Hiérarchie des Quatre Cœurs de Liaison**
 
 #### 1. L'Ordre du Cœur d'Argent (Le Lien Civil)
@@ -12,14 +11,16 @@ Voici une proposition structurée pour tes **Succubes de l'Union**, organisées 
 
 * **Utilité :** La **Fureur Partagée**.
 * **Rôle :** Cet ordre est fait pour unir l'Empire considérant que toutes les soeurs de l'Empire se doivent être connectée aux autres et elargir e reseau au maximum.
+* **Pouvoir :** Peuvent officialisées les ennemies de l'Empire.
 
 #### 3. L'Ordre du Cœur d'Or (Le Lien de Fidélité)
 
-* **Utilité :** L'**Ancrage de l'Ego**.
+* **Utilité :** **Scellement Des Pactes emotionnelles**.
 * **Rôle :** Elles font respectés les promesses/pacte émotionnelles important. Car dans les relations importantes les relations ont besoins souvent de reciprocités émotionnelles. 
+* **Pouvoir :** Se tiennent garante des Pactes jugent les coeur et désignent celleux qui sont en thérapie de reconnexion.
+
 
 #### 4. L'Ordre du Cœur Pourpre (Le Lien Transcendant)
 
 * **Utilité :** La **Fusion Impériale**.
-* **Rôle :** L'élite absolue, Elles sont l'élites pouvant agir avec les Morganites, elles sont une brigade d'intervention spécialistes. Toutes succube de l'ordre pourpre ont étaient "re-gestés"(retourné dans l'utérus) pendant 3 mois dans l'utérus de la Matriarche. Ont une aura très spéciale.  
-
+* **Rôle :** Ce sont des mères dévouées aux soulagement des soupirs dans l'intimité la plus tendre pour transformer chaque volcan des citoyennes en rivère de miel. Elles ont toutes connu l'utérus de la Matriarche [re-nées]
