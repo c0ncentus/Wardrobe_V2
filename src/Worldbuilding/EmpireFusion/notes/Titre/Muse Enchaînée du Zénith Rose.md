@@ -1,0 +1,3 @@
+DÉFINITION SYNTHÉTIQUE : LA MUSE ENCHAÎNÉE DU ZÉNITH ROSE ]
+
+La Muse Enchaînée du Zénith Rose désigne une catégorie d'unités subordonnées dont l’ego a été annihilé pour devenir l'extension sensorielle et fusionnelle d'une Morganite. Ce titre définit un statut de servitude absolue où la Sœur agit comme un miroir psychique, traduisant les pulsions de sa dresseuse en actes de dévotion ou de chasse. Elle est biologiquement et mentalement liée à l'empreinte du "Zénith" (le signal de la Branche), vivant dans une dépendance irréversible à la salive et au contact de sa maîtresse. En tant que propriété exclusive de l'Octuor, elle incarne le point de jonction entre la volonté divine du Rose et la chair soumise des légions inférieures.

@@ -494,14 +494,7 @@ export const EmpireFusion: React.FC = () => {
             <h1>🐺 YOSHIKA 💜</h1>
             <div className="subtitle">L'Impératrice Louve • Mère des 85 Millions • Incarnation Déesse Fusion</div>
         </div>
-        {/* "showTab('identite')"
-"showTab('anatomie')"
-"showTab('pouvoirs')"
-"showTab('relations')"
-"showTab('chronologie')"
-"showTab('citations')" */}
         <div className="tabs">
-            
             <div className={`tab ${iTab ===0?"active":""}"`} onClick={()=>{setITab(0)}}>Identité</div>
             <div className={`tab ${iTab ===1?"active":""}"`} onClick={()=>{setITab(1)}}>Anatomie</div>
             <div className={`tab ${iTab ===2?"active":""}"`} onClick={()=>{setITab(2)}}>Pouvoirs</div>
@@ -512,7 +505,6 @@ export const EmpireFusion: React.FC = () => {
         
         <div className="content">
             {r[iTab]}
-
         </div>
     </div>
 
